@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0081a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  transition: background-color 1s ease;
+  animation: color-transition 10s infinite;
+}
+
+@keyframes color-transition{
+  0% { background-color: #c70000; } /* Initial background color */
+  20% { background-color: #00ab00; } /* Second background color */
+  40% { background-color: #0000ff; } /* Third background color */
+  60% { background-color: #9b9b00; } /* Fourth background color */
+  80% { background-color: #ad00ad; } /* Fifth background color */
+  100% { background-color: #c70000; } /* Return to initial background color */
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-section{
+margin-left: 10px;
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.search-box{
+border-radius: 12px;
+flex: 1;
+font-size: 21px;
+}
+
+.search-button{
+  font-size: 21px;
+  border-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 12px;
+  padding-right: 10px;
+  background-color:transparent; 
+  cursor:pointer;
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+
+.search-button:hover{
+  background-color:transparent;
+  color: white;
+}
+
+.search-results{
+  font-size: 40px;
+}
+
+.button-switching-temp{
+  border-radius: 22px;
+  font-size: 21px;
+  cursor: pointer;
+  background-color: transparent;
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+
+.button-switching-temp:hover{
+background-color: transparent;
+color: white;
+}
+
