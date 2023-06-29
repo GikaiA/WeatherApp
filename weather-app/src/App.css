@@ -60,13 +60,14 @@ margin-bottom: 20px;
 border-radius: 12px;
 flex: 1;
 font-size: 21px;
+border-color: white;
 }
 
 .search-button{
   font-size: 21px;
   border-color: rgb(255, 255, 255);
   text-align: center;
-  border-radius: 12px;
+  border-radius: 8px;
   padding-right: 10px;
   background-color:transparent; 
   cursor:pointer;
@@ -84,12 +85,13 @@ font-size: 21px;
 }
 
 .button-switching-temp{
-  border-radius: 22px;
+  border-radius: 8px;
   font-size: 21px;
   cursor: pointer;
   background-color: transparent;
   transition-duration: 0.4s;
   font-weight: bold;
+  border-color: white;
 }
 
 .button-switching-temp:hover{
